@@ -1,7 +1,3 @@
-/*.section {*/
-/*    padding-top: 60px;*/
-/*    padding-bottom: 60px;*/
-/*}*/
 
 .hero {
     background: url("../images/ibm-hero.png") no-repeat;
@@ -13,22 +9,21 @@
     justify-content: center;
 }
 
-/*.hero::after {*/
-/*    display: block;*/
-/*    content: "";*/
-/*    height: 300px;*/
-/*    background-color: #006EB0;*/
-/*    background-blend-mode: multiply;*/
-/*}*/
+.hero::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #006EB0;
+    opacity: 0.6;
+}
 
 .hero-wrapper {
     display: flex;
     justify-content: center;
-}
-
-.image-blended {
-    background-color: #006EB0;
-    background-blend-mode: multiply;
 }
 
 .hero-content__title {
@@ -37,6 +32,5 @@
     font-weight: bold;
     font-size: 30px;
     text-shadow: 1px 1px 1px #000000c4;
+    z-index: 1;
 }
-
-/*section-----------------*/

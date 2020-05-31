@@ -21,11 +21,6 @@ body {
     align-items: center;
 }
 
-.logo {
-    /*display: flex;*/
-    /*align-items: center;*/
-}
-
 .logo__link {
     display: flex;
     align-items: center;
@@ -64,10 +59,6 @@ body {
 .nav__list {
     display: flex;
     font-family: "Open Sans";
-}
-
-.nav__list__item {
-
 }
 
 .nav__list__item:not(:last-child) {
