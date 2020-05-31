@@ -13,6 +13,14 @@
     justify-content: center;
 }
 
+/*.hero::after {*/
+/*    display: block;*/
+/*    content: "";*/
+/*    height: 300px;*/
+/*    background-color: #006EB0;*/
+/*    background-blend-mode: multiply;*/
+/*}*/
+
 .hero-wrapper {
     display: flex;
     justify-content: center;
