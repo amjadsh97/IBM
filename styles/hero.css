@@ -1,0 +1,27 @@
+.hero {
+    background: url("../images/ibm-hero.png") no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.image-blended {
+    background-color: #006EB0;
+    background-blend-mode: multiply;
+}
+
+.hero-content__title {
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #000000c4;
+}
