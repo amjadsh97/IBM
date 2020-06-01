@@ -45,7 +45,7 @@
     display: block;
 }
 
-.section-cards__header {
+.section-cards__heading {
     color: #006eb0;
     text-align: center;
     font-size: 22px;
@@ -64,6 +64,14 @@
     margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 80px;
+    grid-row-gap: 60px;
+}
+
+.card-wrapper-2 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 80px;
     grid-row-gap: 60px;
 }
