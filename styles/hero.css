@@ -18,6 +18,16 @@
     justify-content: flex-end;
 }
 
+.hero-img {
+    background: url("../images-4/hero-background.png") no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .hero::after {
     display: block;
     content: "";
@@ -31,6 +41,12 @@
 }
 
 .hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,7 +94,8 @@
 .hero-content__title {
     text-transform: capitalize;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: 500;
+    letter-spacing: 1px;
     font-size: 30px;
     text-shadow: 1px 1px 1px #000000c4;
     z-index: 1;
