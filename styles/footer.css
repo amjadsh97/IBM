@@ -7,7 +7,7 @@
 .footer-content {
     display: flex;
     justify-content: space-between;
-    min-height: 280px;
+    //min-height: 280px;
 }
 
 .footer-data__title {
@@ -21,6 +21,7 @@
     flex-direction: column;
     justify-content: space-between;
     color: #ffffff;
+    line-height: 1.4;
 }
 
 .footer-list__item {
@@ -52,3 +53,106 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+@media (max-width: 1520px) {
+    header,.section,.footer-content, .section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .card-wrapper-2 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 990px) {
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .section-wrapper {
+        flex-direction: column;
+    }
+
+
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-data:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .inner-wrapper {
+        justify-content: unset;
+    }
+
+    .hero-background {
+        padding-left: 20px;
+    }
+
+
+    .hero-content {
+        text-shadow: 1px 1px 1px rgba(5, 5, 5, 0.57);
+    }
+
+    .card-wrapper-2 {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+
+    .section-wrapper__content__link {
+        margin-bottom: 50px;
+    }
+
+    .card-wrapper {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+
+    .card-plans__wrapper {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .card-wrapper-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+@media (max-width: 590px) {
+
+    .card-wrapper {
+        grid-template-columns: 1fr
+    }
+
+    .card-plans__wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .nav__list {
+        flex-direction: column;
+    }
+
+    .card-wrapper-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .logo__img {
+        display: inline-block;
+        object-fit: cover;
+        max-width: 250px;
+    }
+}
+

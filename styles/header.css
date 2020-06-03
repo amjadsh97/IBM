@@ -29,9 +29,8 @@ body {
 
 .logo__img {
     display: inline-block;
-    width: 60px;
-    height: 60px;
     object-fit: cover;
+    max-width: 400px;
 }
 
 .logo-wrapper {
