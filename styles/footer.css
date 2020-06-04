@@ -107,9 +107,9 @@
         grid-row-gap: 30px;
     }
 
-    .section-wrapper__content__link {
-        margin-bottom: 50px;
-    }
+    /*.link--primary {*/
+    /*    margin-bottom: 50px;*/
+    /*}*/
 
     .card-wrapper {
         grid-template-columns: 1fr 1fr;
@@ -153,6 +153,14 @@
         display: inline-block;
         object-fit: cover;
         max-width: 250px;
+    }
+
+    .card-row {
+        flex-direction: column;
+    }
+    
+    .card-row .card-title {
+        text-align: center;
     }
 }
 

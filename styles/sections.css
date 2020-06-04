@@ -13,8 +13,8 @@
     margin-bottom: 0;
 }
 
-.section-wrapper__content {
-    margin-right: 80px;
+.section__content {
+    //margin-right: 80px;
 }
 
 .title-wrapper {
@@ -37,7 +37,7 @@
     text-transform: uppercase;
 }
 
-.section-wrapper__content__title {
+.section__content__title {
     text-transform: capitalize;
     color: #006eb0;
     font-size: 28px;
@@ -49,18 +49,19 @@
     margin-bottom: 60px;
 }
 
-.section-wrapper__content__sub-title {
+.section__content__sub-title {
     color: #006eb0;
     font-size: 36px;
     font-weight: 600;
     margin-top: 20px;
 }
 
-.section-wrapper__content__desc {
+.section__content__desc {
     color: #888888;
     font-size: 18px;
     margin-top: 40px;
     //margin-bottom: 130px;
+    max-width: 850px;
     line-height: 1.4;
 }
 
@@ -74,21 +75,27 @@
     color: #888888;
 }
 
+.section__logo-img {
+    max-width: 250px;
+}
+
 .link-wrapper-img {
     display: block;
     object-fit: cover;
     border-radius: 5px;
+    max-width: 500px;
 }
 
 .link {
     display: inline-block;
+    text-align: center;
     text-decoration: none;
     text-transform: capitalize;
     border-radius: 5px;
     font-weight: 600;
 }
 
-.section-wrapper__content__link {
+.link--primary {
     background-color: #ed6f2b;
     color: #ffffff;
     padding: 18px 80px;
@@ -104,6 +111,7 @@
     color: #006eb0;
     text-align: center;
     font-size: 22px;
+    line-height: 1.2;
 }
 
 .card-heading {
@@ -144,7 +152,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 80px;
-    grid-row-gap: 60px;
 }
 
 .card-wrapper-2 {
@@ -251,39 +258,31 @@
     margin-bottom: 20px;
 }
 
-.card-link {
-    font-weight: 400;
-    text-align: center;
-    display: block;
-    background-color: #c8722c;
-    color: #ffffff;
-    border-radius: unset;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-decoration: none;
-}
-
-.card-link__primary {
-    background-color: #3b76be;
-}
-
-.card-secondary__link {
+.link--secondary {
     display: inline-block;
     background-color: #006fd1;
     padding: 10px 20px;
     text-transform: uppercase;
     margin-top: 20px;
     border-radius: 4px;
+    color: #ffffff;
+}
+
+.link--complement {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: unset;
+    text-transform: capitalize;
 }
 
 .section-reverse {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin-bottom: 80px;
 }
 
-.section-reverse .section-wrapper__content {
-    margin-left: 40px;
+.section-reverse .section__content {
+    //margin-left: 40px;
     margin-right: 0;
 }
