@@ -100,6 +100,7 @@
     color: #ffffff;
     padding: 18px 80px;
     margin-top: 80px;
+    margin-bottom: 10px;
 }
 
 .section-wrapper__img {
@@ -274,6 +275,7 @@
     padding-bottom: 20px;
     border-radius: unset;
     text-transform: capitalize;
+    margin-bottom: 0;
 }
 
 .section-reverse {
